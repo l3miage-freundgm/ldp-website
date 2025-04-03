@@ -20,20 +20,8 @@ export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-sm sticky top-0 z-50">
+    <header className="bg-white shadow-sm sticky top-0 z-50 border-b">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-4 lg:px-8" aria-label="Global">
-        <div className="flex lg:flex-1">
-          <Link href="/" className="-m-1.5 p-1.5">
-            <span className="sr-only">Lucía Díaz Psicóloga</span>
-            <Image
-              src="/placeholder.svg?height=40&width=120"
-              alt="Logo"
-              width={120}
-              height={40}
-              className="h-10 w-auto"
-            />
-          </Link>
-        </div>
         <div className="flex lg:hidden">
           <button
             type="button"
@@ -43,6 +31,18 @@ export default function Header() {
             <span className="sr-only">Abrir menú principal</span>
             <Menu className="h-6 w-6" aria-hidden="true" />
           </button>
+        </div>
+        <div className="flex lg:flex-1">
+          <Link href="/" className="-m-1.5 p-1.5">
+            <span className="sr-only">Lucía Díaz Psicóloga</span>
+            <Image
+              src="/lucialogo-14.png?height=80&width=240"
+              alt="Logo"
+              width={120}
+              height={40}
+              className="h-40 w-auto"
+            />
+          </Link>
         </div>
         <div className="hidden lg:flex lg:gap-x-8">
           {navigation.map((item) => (
@@ -70,11 +70,11 @@ export default function Header() {
             <Link href="/" className="-m-1.5 p-1.5">
               <span className="sr-only">Lucía Díaz Psicóloga</span>
               <Image
-                src="/placeholder.svg?height=40&width=120"
+                src="/lucialogo-14.png?height=40&width=120"
                 alt="Logo"
                 width={120}
                 height={40}
-                className="h-8 w-auto"
+                className="h-20 w-auto"
               />
             </Link>
             <button

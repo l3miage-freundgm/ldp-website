@@ -14,7 +14,7 @@ export default function Services() {
         "Seguimiento continuo de tu progreso",
         "Herramientas prácticas para aplicar en tu día a día",
       ],
-      price: "₡35,000 por sesión",
+      price: "₡000 por sesión",
       cta: "Agenda tu cita",
     },
     {
@@ -26,7 +26,7 @@ export default function Services() {
         "Ahorro de tiempo en desplazamientos",
         "Plataforma segura y confidencial",
       ],
-      price: "₡30,000 por sesión",
+      price: "₡000 por sesión",
       cta: "Reserva tu espacio",
     },
     {
@@ -38,7 +38,7 @@ export default function Services() {
         "Ejercicios prácticos y dinámicas",
         "Certificado de participación",
       ],
-      price: "Desde ₡25,000 por persona",
+      price: "Desde ₡000 por persona",
       cta: "Ver próximos talleres",
     },
     {
@@ -61,7 +61,7 @@ export default function Services() {
       date: "15 de Junio, 2023",
       time: "9:00 AM - 12:00 PM",
       location: "Online vía Zoom",
-      price: "₡25,000",
+      price: "₡000",
       spots: "8 cupos disponibles",
     },
     {
@@ -69,7 +69,7 @@ export default function Services() {
       date: "22 de Junio, 2023",
       time: "2:00 PM - 5:00 PM",
       location: "Centro Empresarial La Sabana",
-      price: "₡30,000",
+      price: "₡000",
       spots: "5 cupos disponibles",
     },
     {
@@ -77,7 +77,7 @@ export default function Services() {
       date: "8 de Julio, 2023",
       time: "9:00 AM - 12:00 PM",
       location: "Online vía Zoom",
-      price: "₡25,000",
+      price: "₡000",
       spots: "10 cupos disponibles",
     },
   ]

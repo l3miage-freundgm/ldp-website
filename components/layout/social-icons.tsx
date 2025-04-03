@@ -54,7 +54,7 @@ export default function SocialIcons() {
         <Spotify className="h-5 w-5" />
       </Link>
       <Link
-        href="https://wa.me/50688888888"
+        href="https://wa.me/50688730130"
         target="_blank"
         className="flex items-center justify-center w-10 h-10 rounded-full bg-white shadow-md text-sage-600 hover:bg-sage-600 hover:text-white transition-colors"
         aria-label="WhatsApp"

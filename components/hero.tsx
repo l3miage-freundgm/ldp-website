@@ -52,7 +52,7 @@ export default function Hero() {
       <div className="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
         <Image
           className="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full"
-          src="/placeholder.svg?height=800&width=1200"
+          src="/9A1A3071.jpg?height=800&width=1200"
           alt="Lucía Díaz Psicóloga"
           width={1200}
           height={800}

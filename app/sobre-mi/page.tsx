@@ -16,7 +16,7 @@ export default function AboutMe() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center mb-16">
         <div>
           <Image
-            src="/placeholder.svg?height=500&width=500"
+            src="/9A1A3071.jpg?height=500&width=500"
             alt="Lucía Díaz Psicóloga"
             width={500}
             height={500}

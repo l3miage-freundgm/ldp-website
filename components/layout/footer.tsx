@@ -4,17 +4,17 @@ import { Instagram, Youtube, AirplayIcon as Spotify, Mail, Phone, MapPin } from 
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 border-t border-gray-200">
+    <footer className="bg-sage-50 border-t border-gray-200">
       <div className="container mx-auto py-12 px-4 md:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
             <Link href="/" className="inline-block mb-6">
               <Image
-                src="/placeholder.svg?height=40&width=120"
+                src="/lucialogo-14.png?height=40&width=120"
                 alt="Logo"
                 width={120}
-                height={40}
-                className="h-10 w-auto"
+                height={20}
+                className="h-20 w-auto"
               />
             </Link>
             <p className="text-gray-600 mb-6">
