@@ -51,7 +51,7 @@ export default function AboutMe() {
             <CardContent className="pt-6">
               <h3 className="text-xl font-medium text-sage-600 mb-2">Educación</h3>
               <ul className="list-disc pl-5 text-gray-700 space-y-2">
-                <li>Licenciatura en Psicología, Universidad de Costa Rica</li>
+                <li>Licenciatura en Psicología, Uni</li>
                 <li>Maestría en Psicología Clínica, Universidad XYZ</li>
                 <li>Especialización en Terapia Cognitivo-Conductual</li>
                 <li>Certificación en Mindfulness y Bienestar</li>
