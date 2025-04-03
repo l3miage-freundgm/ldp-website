@@ -29,7 +29,6 @@ export const metadata: Metadata = {
       },
     ],
   },
-    generator: 'v0.dev'
 }
 
 export default function RootLayout({
@@ -40,17 +39,13 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange>
-          <Header />
-          <main className="min-h-screen">{children}</main>
-          <SocialIcons />
-          <Footer />
-        </ThemeProvider>
+        {/* <ThemeProvider attribute="class" defaultTheme="light" enableSystem disableTransitionOnChange> */}
+        <Header />
+        <main className="min-h-screen">{children}</main>
+        <SocialIcons />
+        <Footer />
+        {/* </ThemeProvider> */}
       </body>
     </html>
   )
 }
-
-
-
-import './globals.css'

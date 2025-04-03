@@ -1,6 +1,9 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Instagram, Youtube, AirplayIcon as Spotify, Mail, Phone, MapPin } from "lucide-react"
+import { Instagram, Youtube, Mail, Phone, MapPin } from "lucide-react"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faSpotify } from "@fortawesome/free-brands-svg-icons"
+
 
 export default function Footer() {
   return (
@@ -12,9 +15,8 @@ export default function Footer() {
               <Image
                 src="/lucialogo-14.png?height=40&width=120"
                 alt="Logo"
-                width={120}
-                height={20}
-                className="h-20 w-auto"
+                width={240}
+                height={40}
               />
             </Link>
             <p className="text-gray-600 mb-6">
@@ -42,7 +44,7 @@ export default function Footer() {
                 target="_blank"
                 className="text-gray-500 hover:text-sage-600 transition-colors"
               >
-                <Spotify className="h-5 w-5" />
+                <FontAwesomeIcon icon={faSpotify} className="h-5 w-5" />
                 <span className="sr-only">Spotify</span>
               </Link>
             </div>

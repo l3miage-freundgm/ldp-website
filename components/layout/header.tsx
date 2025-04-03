@@ -36,11 +36,10 @@ export default function Header() {
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">Lucía Díaz Psicóloga</span>
             <Image
-              src="/lucialogo-14.png?height=80&width=240"
+              src="/lucialogo-14.png"
               alt="Logo"
               width={120}
-              height={40}
-              className="h-40 w-auto"
+              height={80}
             />
           </Link>
         </div>

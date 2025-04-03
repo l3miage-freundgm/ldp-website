@@ -1,11 +1,25 @@
+"use client"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import Link from "next/link"
 import Image from "next/image"
 import { Play, ArrowRight } from "lucide-react"
+import { useEffect, useState } from "react"
+
 
 export default function ContentPreviews() {
+  useEffect(() => {
+    fetch("/api/youtube")
+      .then((res) => res.json())
+      .then(setYoutubeData)
+      .catch(console.error)
+  }, [])
+  const [youtubeData, setYoutubeData] = useState<{
+    title: string
+    thumbnail: string
+    videoId: string
+  } | null>(null)
   return (
     <div className="py-16 bg-gray-50">
       <div className="container mx-auto px-4 md:px-6">
@@ -96,7 +110,7 @@ export default function ContentPreviews() {
                       <Play className="mr-2 h-4 w-4" /> Ver ahora
                     </Button>
                     <Button asChild variant="outline" className="border-sage-600 text-sage-600 hover:bg-sage-50">
-                      <Link href="/youtube">
+                      <Link href='https://www.youtube.com/@deterapeutaylocotodostenem3627/videos'>
                         Ver todos los videos <ArrowRight className="ml-2 h-4 w-4" />
                       </Link>
                     </Button>
